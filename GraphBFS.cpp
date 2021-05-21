@@ -15,10 +15,7 @@ public:
     }
     void addEdge(int u, int v)
     {
-        if (u != v)
-        {
-            adj[u].push_back(v);
-        }
+        adj[u].push_back(v);
     }
     void BFS(int src)
     {
